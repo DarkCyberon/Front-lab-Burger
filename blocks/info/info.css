@@ -1,0 +1,42 @@
+.info {
+  padding: 181px 0 0 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 37.4%;
+}
+.info__title-text {
+  font-family: 'Montserrat-Extrabold' !important;
+  font-size: 64px;
+  color: #FFFFFF;
+}
+.info__title-text--highlight {
+  color: #CD292A;
+}
+.info__text-discribe {
+  font-family: Montserrat !important;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+.info__menu {
+  font-family: Montserrat-Medium !important;
+  font-size: 22px;
+  color: #FFFFFF;
+  background-color: #CD292A;
+  padding: 24px 40px;
+  border-radius: 40px;
+}
+.photo-list {
+  display: flex;
+  gap: -30px;
+}
+.photo-list__brg:not(:first-child) {
+    margin-left: -25px; /* Негативный отступ для наложения изображений (настраивайте по необходимости) */
+}
+.info__burger {
+  position: absolute;
+  left: 441px;
+  width: 55%;
+  z-index: -1;
+  object-fit: contain;
+}

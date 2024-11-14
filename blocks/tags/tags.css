@@ -1,0 +1,15 @@
+.tags__block {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  padding: 96px 0 0 100px;
+}
+.tags__block-item{
+  font-family: Montserrat-Semibold !important;
+  font-size: 24px;
+  color: #FFFFFF;
+  background: linear-gradient(to right, #BBBBBB, rgb(8,12,21, .4));
+  padding: 24px 40px;
+  border-top-left-radius: 90px;
+  border-bottom-left-radius: 90px;
+}
